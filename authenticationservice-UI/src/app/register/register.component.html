@@ -1,10 +1,6 @@
 <div class="col-md-12">
     <div class="card card-container">
-      <div class="ZoneImage"><img
-        id="profile-img"
-        src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
-        class="profile-img-card"
-      /></div>
+      <span class="register_title"><h3>Register</h3></span><br/>
       <form
         *ngIf="!isSuccessful"
         name="form"
@@ -71,7 +67,7 @@
           </div>
         </div>
         <div class="form-group">
-          <button class="btn btn-primary btn-block">Sign Up</button>
+          <button class="btn btn-primary">Sign Up</button>
         </div>
   
         <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">

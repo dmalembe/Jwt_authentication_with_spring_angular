@@ -6,12 +6,11 @@
     width: 40%;
     margin-top: 20px;
     margin-left: 30%;
-    margin-right: 30%;
 }
 
 //
 .card-container{
-    background-color: azure;
+    border: none;
 }
 
 // form-group
@@ -19,14 +18,6 @@
     padding: 10px;
 }
 
-// Mise en forme image profile
-.ZoneImage{
+.register_title{
     text-align: center;
-    margin-top: 10px;
-}
-.profile-img-card{
-    height: 70px;
-    width: 70px;
-    border-radius: 5px;
-
 }
